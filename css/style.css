@@ -1,0 +1,494 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:wght@300;400;500;700&family=Roboto:wght@300;400;500;700&display=swap');
+
+body {
+    font-size: 62.5%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: 'Roboto Serif', sans-serif;
+}
+
+p,
+button,
+li {
+    font-family: 'Roboto', sans-serif;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+figure {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    height: 15vh;
+    background-color: #252525;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5%;
+    z-index: 1;
+}
+
+header .logo {
+    width: 210px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo figure img {
+    width: 60px;
+    height: 60px;
+}
+
+header .logo h1 {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+header nav ul .instagram,
+header nav ul .youtube {
+    display: none;
+}
+
+header nav ul .whatsapp a figure img {
+    width: 50px;
+    height: 50px;
+}
+
+main .welcomeToInauguration {
+    height: 85vh;
+    background-image: url('../img/background-1-mobile.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+
+main .welcomeToInauguration h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-align: center;
+    position: relative;
+    bottom: 10vh;
+}
+
+main .welcomeToInauguration figure {
+    position: relative;
+    bottom: 25vh;
+}
+
+main .welcomeToInauguration figure img {
+    width: 150px;
+    height: 150px;
+}
+
+main .bathingAndGrooming {
+    height: 90vh;
+    background-image: url('../img/background-2-mobile.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    color: #3A342F;
+}
+
+main .bathingAndGrooming h3 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    position: relative;
+    top: 10vh;
+}
+
+main .bathingAndGrooming p {
+    text-align: center;
+    font-size: 1.1rem;
+    position: relative;
+    top: 12.5vh;
+    line-height: 1.5;
+    width: 300px;
+}
+
+main .bathingAndGrooming button {
+    width: 200px;
+    height: 50px;
+    border: none;
+    border-radius: 44px;
+    text-align: center;
+    background-color: #3A342F;
+    color: #F4F2F3;
+    font-size: 1.1rem;
+    font-weight: bold;
+    position: relative;
+    top: 15vh;
+}
+
+main .healthyPampering {
+    height: 90vh;
+    background-image: url('../img/background-3-mobile.png');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    color: #FFFFFF;
+}
+
+main .healthyPampering h3 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    position: relative;
+    top: 10vh;
+}
+
+main .healthyPampering p {
+    text-align: center;
+    font-size: 1.1rem;
+    position: relative;
+    top: 12.5vh;
+    line-height: 1.5;
+    width: 300px;
+}
+
+main .healthyPampering button {
+    width: 200px;
+    height: 50px;
+    border: none;
+    border-radius: 44px;
+    text-align: center;
+    background-color: #FFFFFF;
+    color: #000000;
+    font-size: 1.1rem;
+    font-weight: bold;
+    position: relative;
+    top: 15vh;
+}
+
+main .supportCompanies {
+    height: 20vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    color: #FD6A9A;
+}
+
+main .supportCompanies h3 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    font-style: italic;
+}
+
+main .supportCompanies figure {
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+main .supportCompanies figure img {
+    width: 150px;
+}
+
+footer {
+    height: 100vh;
+    background-color: #EB4A7B;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+
+footer .logo {
+    width: 210px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer .logo figure {
+    margin-right: 10px;
+}
+
+footer .logo figure img {
+    width: 60px;
+    height: 60px;
+}
+
+footer .logo h1 {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+footer nav ul {
+    width: 175px;
+}
+
+footer nav ul li figure img {
+    width: 45px;
+    height: 45px;
+}
+
+footer nav ul .youtube figure img {
+    width: 50px;
+}
+
+footer .assistance,
+footer .about,
+footer .locations,
+footer section ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+
+footer .assistance,
+footer .about,
+footer .locations {
+    height: 20vh;
+}
+
+footer section h5 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+footer section ul {
+    height: 15vh;
+}
+
+footer section ul li {
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+@media screen and (min-width: 481px) {
+    header {
+        height: 10vh;
+        display: flex;
+        justify-content: space-between;
+        padding: 0 10%;
+    }
+
+    header .logo {
+        width: 135px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    header .logo figure img {
+        width: 35px;
+        height: 35px;
+    }
+
+    header .logo h1 {
+        font-size: 1rem;
+        font-weight: bold;
+    }
+
+    header nav ul {
+        width: 150px;
+    }
+
+    header nav ul li,
+    header nav ul li,
+    header nav ul li {
+        display: initial !important;
+    }
+
+    header nav ul li a figure img {
+        width: 40px !important;
+        height: 40px !important;
+    }
+
+    header nav ul .youtube figure img {
+        width: 45px !important;
+    }
+
+    main .welcomeToInauguration {
+        height: 135vh;
+        background-image: url('../img/background-1-desktop.png');
+        background-size: cover;
+    }
+
+    main .welcomeToInauguration h2 {
+        font-size: 3rem;
+        text-align: center;
+        width: 500px;
+        bottom: 10vh;
+    }
+
+    main .welcomeToInauguration figure {
+        bottom: 35vh;
+    }
+
+    main .bathingAndGrooming {
+        height: 120vh;
+        background-image: url('../img/background-2-desktop.png');
+        background-size: cover;
+        justify-content: space-around;
+        align-items: flex-start;
+        color: #3A342F;
+    }
+
+    main .bathingAndGrooming h3 {
+        font-size: 2.5rem;
+        position: relative;
+        top: 22.5vh;
+        left: 20vw;
+    }
+
+    main .bathingAndGrooming p {
+        width: 350px;
+        text-align: left;
+        font-size: 1.5rem;
+        top: initial;
+        left: 20vw;
+    }
+
+    main .bathingAndGrooming button {
+        width: 250px;
+        height: 80px;
+        font-size: 1.5rem;
+        top: initial;
+        bottom: 20vh;
+        left: 20vw;
+    }
+
+    main .healthyPampering {
+        height: 120vh;
+        background-image: url('../img/background-3-desktop.png');
+        background-size: cover;
+        justify-content: space-around;
+        align-items: flex-start;
+    }
+
+    main .healthyPampering h3 {
+        font-size: 2.5rem;
+        font-weight: bold;
+        top: 22.5vh;
+        left: 50vw;
+    }
+
+    main .healthyPampering p {
+        width: 350px;
+        text-align: left;
+        font-size: 1.5rem;
+        top: initial;
+        left: 50vw;
+    }
+
+    main .healthyPampering button {
+        width: 250px;
+        height: 80px;
+        font-size: 1.5rem;
+        top: initial;
+        bottom: 20vh;
+        left: 50vw;
+    }
+
+    main .supportCompanies {
+        justify-content: space-evenly;
+        flex-direction: row;
+        color: #FD6A9A;
+    }
+
+    main .supportCompanies h3 {
+        font-size: 1.8rem;
+        font-weight: bold;
+        font-style: italic;
+    }
+
+    main .supportCompanies figure {
+        width: 40%;
+        justify-content: space-between;
+    }
+
+    main .supportCompanies figure img {
+        width: 200px;
+    }
+
+    footer {
+        height: 50vh;
+        background-color: #EB4A7B;
+        color: white;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: row;
+    }
+
+    footer .logo {
+        display: none;
+    }
+
+    footer .logo h1 {
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+
+    footer nav {
+        display: none;
+    }
+
+    footer .assistance,
+    footer .about,
+    footer .locations,
+    footer section ul {
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    footer .assistance,
+    footer .about,
+    footer .locations {
+        height: 25vh;
+    }
+
+    footer section h5 {
+        font-size: 2rem;
+        text-align: left;
+    }
+
+    footer section ul {
+        height: 15vh;
+        text-align: left;
+    }
+
+    footer section ul li {
+        text-align: left;
+    }
+}
