@@ -28,6 +28,7 @@ Esse projeto foi lançado como o desafio 04 do módulo 01 do curso de front-end 
 
 As funcionalidades disponíveis para os usuários estão listadas abaixo:
 
+- Utilizar um cursor especial com a temática do site
 - Clicar em botões especiais
 - Utilizar a página web em qualquer celular de forma simples, intuitiva e com uma excelente visualização
 
